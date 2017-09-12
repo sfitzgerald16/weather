@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h1 class="text-center">Dojo Weather Forecast</h1>
+    <ul class="nav nav-tabs flex-outer">
+      <li><a [routerLink]="['/seattle']">Seattle WA</a></li>
+      <li><a [routerLink]="['/sanjose']">San Jose CA</a></li>
+      <li><a [routerLink]="['/burbank']">Burbank CA</a></li>
+      <li><a [routerLink]="['/dallas']">Dallas TX</a></li>
+      <li><a [routerLink]="['/dc']">Washington DC</a></li>
+      <li><a [routerLink]="['/chicago']">Chicago IL</a></li>
+    </ul>
+    <fieldset class="the-fieldset">
+      <legend class="the-legend">Local Forecast</legend>
+      <router-outlet></router-outlet>
+    </fieldset>
+  </div>
+</div>

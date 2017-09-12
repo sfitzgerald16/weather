@@ -1,0 +1,19 @@
+.flex-outer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.the-legend {
+    border-style: none;
+    border-width: 0;
+    line-height: 20px;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0 10px;
+}
+.the-fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
